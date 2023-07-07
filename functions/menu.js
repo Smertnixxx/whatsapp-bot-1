@@ -1,6 +1,6 @@
 exports.menu = (v) => {
   return `
-╭─⊷❲ *MAIN* ❳
+╭─⊷❲ *ГЛАВНАЯ* ❳
 ├ ${v}menu
 ├ ${v}help
 ├ ${v}info
@@ -11,7 +11,7 @@ exports.menu = (v) => {
 ├ ${v}chatbot on/off
 ├ ${v}voicecommand on/off
 ╰────────
-╭─⊷❲ *FUN* ❳
+╭─⊷❲ *ВЕСЕЛЬЕ* ❳
 ├ ${v}dilan
 ├ ${v}ilham
 ├ ${v}gombal
@@ -19,12 +19,7 @@ exports.menu = (v) => {
 ├ ${v}fakta
 ├ ${v}fitnah text/target/text
 ╰────────
-╭─⊷❲ *KERANG AJAIB* ❳
-├ ${v}apakah
-├ ${v}kapankah
-├ ${v}siapakah
-╰────────
-╭─⊷❲ *GAME* ❳
+╭─⊷❲ *ИГРЫ* ❳
 ├ ${v}truth
 ├ ${v}dare
 ├ ${v}asahotak
@@ -36,20 +31,20 @@ exports.menu = (v) => {
 ├ ${v}tekateki
 ├ ${v}suit gunting/batu/kertas
 ╰────────
-╭─⊷❲ *STICKER* ❳
+╭─⊷❲ *СТИКЕРЫ* ❳
 ├ ${v}sticker
 ├ ${v}sticker <author>|<packname>
 ├ ${v}take <author>|<packname>
 ├ ${v}toimg
 ╰────────
-╭─⊷❲ *PICTURE* ❳
+╭─⊷❲ *КАРТИНКИ* ❳
 ├ ${v}pinterest <query>
 ├ ${v}cogan
 ├ ${v}cecan
 ├ ${v}cyberpunk
 ├ ${v}wallpaper
 ╰────────
-╭─⊷❲ *MEDIA* ❳
+╭─⊷❲ *МЕДИА* ❳
 ├ ${v}fast
 ├ ${v}slow
 ├ ${v}reverse
@@ -58,7 +53,7 @@ exports.menu = (v) => {
 ├ ${v}bass
 ├ ${v}nightcore
 ╰────────
-╭─⊷❲ *TOOLS* ❳
+╭─⊷❲ *ИНСТРУМЕНТЫ* ❳
 ├ ${v}afk <reason>
 ├ ${v}fakethumb
 ├ ${v}say <text>
@@ -68,17 +63,11 @@ exports.menu = (v) => {
 ├ ${v}del
 ├ ${v}delete
 ╰────────
-╭─⊷❲ *INFORMASI* ❳
+╭─⊷❲ *ИНФОРМАЦИЯ* ❳
 ├ ${v}covid
 ├ ${v}translate <lang><text>
 ╰────────
-╭─⊷❲ *PRIMBON* ❳
-├ ${v}artinama <query>
-├ ${v}artimimpi <query>
-├ ${v}zodiakharian <query>
-├ ${v}zodiakmingguan <query>
-╰────────
-╭─⊷❲ *INTERNET* ❳
+╭─⊷❲ *ИНТЕРНЕТ* ❳
 ├ ${v}playstore <query>
 ├ ${v}yts <query>
 ├ ${v}ytsearch <query>
@@ -86,7 +75,7 @@ exports.menu = (v) => {
 ├ ${v}google <query>
 ├ ${v}shortlink <link>
 ╰────────
-╭─⊷❲ *DOWNLOAD* ❳
+╭─⊷❲ *ЗАГРУЗКИ* ❳
 ├ ${v}igdl <link>
 ├ ${v}igvid <link>
 ├ ${v}igimg <link>
@@ -99,7 +88,7 @@ exports.menu = (v) => {
 ├ ${v}ytmp3 <link>
 ├ ${v}ytmp4 <link>
 ╰────────
-╭─⊷❲ *TEXT GENERATOR* ❳
+╭─⊷❲ *ТЕКСТ ГЕНЕРАТОР* ❳
 ├ ${v}namaninja <text>
 ├ ${v}purba <text>
 ├ ${v}typewriter <text>
@@ -112,7 +101,7 @@ exports.menu = (v) => {
 ├ ${v}heleh <text>
 ├ ${v}holoh <text>
 ╰────────
-╭─⊷❲ *DATABASE* ❳
+╭─⊷❲ *БАЗА ДАННЫХ* ❳
 ├ ${v}addimg <text>
 ├ ${v}addvid <text>
 ├ ${v}addstik <text>
@@ -137,7 +126,7 @@ exports.menu = (v) => {
 ├ ${v}vote
 ├ ${v}devote
 ╰────────
-╭─⊷❲ *ADMIN* ❳
+╭─⊷❲ *АДМИНИСТРАТИВНЫЕ ИНСТРУМЕНТЫ* ❳
 ├ ${v}open
 ├ ${v}close
 ├ ${v}link
@@ -164,7 +153,7 @@ exports.menu = (v) => {
 ├ ${v}simulasi welcome
 ├ ${v}simulasi bye
 ╰────────
-╭─⊷❲ *GROUP* ❳
+╭─⊷❲ *ГРУППА* ❳
 ├ ${v}welcome on
 ├ ${v}welcome off
 ├ ${v}antidelete on
@@ -176,7 +165,7 @@ exports.menu = (v) => {
 ├ ${v}antiviewonce on
 ├ ${v}antiviewonce off
 ╰────────
-╭─⊷❲ *OWNER* ❳
+╭─⊷❲ *ГЛАВНЫЙ* ❳
 ├ ${v}join <link>
 ├ ${v}grouplist
 ├ ${v}addpremium @user
@@ -196,7 +185,7 @@ exports.menu = (v) => {
 ├ ${v}listprem
 ├ ${v}listban
 ├ $
-├ >
+├ > *CREATOR* +79319547247
 ╰────────`;
 };
 
